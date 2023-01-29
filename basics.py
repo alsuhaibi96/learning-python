@@ -25,6 +25,16 @@ print(x+' '+ y +' '+ z)
 print(x,y,z)
 
 
+#using the functions and the global variables
+# x="awesome"
+
+def myFunc():
+     global x
+    x="fantastic"
+    print("the x value is",x)
+
+myFunc()
+print("the global variable is ",x)
 
 
 
