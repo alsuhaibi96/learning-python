@@ -25,7 +25,20 @@ print(x+' '+ y +' '+ z)
 print(x,y,z)
 
 
+#if else if else
 
 
 
+a=55
+b=60
+# if(a>b):
+#     print(a," is greater than ",b)
+# elif (b>a):
+#     print(b," is greater than ",a)
+
+# else:
+#     print("a and b are equal") 
+
+#short hand for if else
+print("a is greater than b") if a>b  else print("they are equal") if a==b else print("b is greater than a")
 
