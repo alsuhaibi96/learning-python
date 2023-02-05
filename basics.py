@@ -28,14 +28,26 @@ print(x,y,z)
 #using the functions and the global variables
 # x="awesome"
 
-def myFunc():
-     global x
-    x="fantastic"
-    print("the x value is",x)
+# def myFunc():
+#      global x
+#     x="fantastic"
+#     print("the x value is",x)
 
-myFunc()
-print("the global variable is ",x)
-
-
+# myFunc()
+# print("the global variable is ",x)
 
 
+
+
+#Add 10 to argument a, and return the result:
+
+x = lambda a : a + 10
+print(x(5))
+
+#using lambda for giving the power of any number
+
+def powerMethod(n):
+   return lambda a:a*n
+
+myDoubler =powerMethod(2)
+print(myDoubler(12))
