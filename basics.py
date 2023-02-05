@@ -1,31 +1,22 @@
-# """if 5>2 :
-#  print("five is greater than two")
-# print("five is greater than two")
-# """
-# x=5
-# x="hi there"
-# print(x)
-
-# y=str(3)
-# print(type(y))
-# y=int(3)
-# print(y)
-
-# y=float(3)
-# print(y)
-
-x, y, z = "orange", "banana", "apple"
-fruits=["banana","lemon","orange"]
-x,y,z=fruits
-x="python"
-y="is"
-z="awesome"
-print(x+' '+ y +' '+ z)
-#the best way to output values is to use the comma
-print(x,y,z)
+#What is the output of the flollowing statements in Python 3
+for x in range(6):
+  if x == 3: break
+  print(x)
+else:
+  print("Finally finished!")
 
 
 
 
+#for loop
+fruits=["banana","apple","watermelon"]
+for x in fruits:
+    print(x)
 
 
+#for loop 
+for x in range(7):
+    print(x)     
+# 2 5 8 .... 29
+for x in range(2, 30, 3):
+  print(x) 
